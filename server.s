@@ -5,7 +5,7 @@ _start:
     open_socket:
         mov rdi, 0x2
         mov rsi, 0x1
-        mov r10, 0x0
+        mov rdx, 0x0
         mov rax, 0x29
         syscall
 
