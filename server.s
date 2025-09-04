@@ -61,9 +61,9 @@ _start:
     read_req:
         mov rbp, rsp
         mov rdi, r14
-        sub rsp, 2560
+        sub rsp, 256
         mov rsi, rsp
-        mov rdx, 2560
+        mov rdx, 256
         mov rax, 0x0
         syscall
 
