@@ -29,11 +29,11 @@ You can interact with the server using a tool like `curl`.
 *   **To request a file (GET):**
     First, create a file for the server to serve:
     ```bash
-    echo "Hello, World!" > index.html
+    echo "Hello, World!" > <path_to_file>
     ```
     Then, in another terminal, run:
     ```bash
-    curl http://localhost/index.html
+    curl http://localhost/<path_to_file>
     ```
 
 *   **To upload a file (POST):**
