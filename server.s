@@ -46,14 +46,14 @@ _start:
         mov rax, 0x39
         syscall
         cmp rax, 0
-        je close_listiner
+        je close_listener
         cleenup:
             mov rdi, r14
             mov rax, 0x3
             syscall
         jmp accept
 
-    close_listiner:
+    close_listener:
         mov rdi, r15
         mov rax, 0x3
         syscall
