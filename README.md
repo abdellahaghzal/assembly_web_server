@@ -31,7 +31,7 @@ You can interact with the server using a tool like `curl`.
     ```bash
     echo "Hello, World!" > <path_to_file>
     ```
-    Then, in another terminal, run:
+    Then run:
     ```bash
     curl http://localhost/<path_to_file>
     ```
